@@ -26,7 +26,8 @@ if __name__=='__main__':
  
     start = time.time()
     print("inicio da mineração")
-    new_hash = mine(5,transactions,'00000000000000000007428108c07f5bb223b8f95f65ab14f8c11b49a203c770', difficulty)
+    new_hash = mine(727760
+    ,transactions,'00000000000000000007a76848979d5ed9abe001fa44c9601977a1bf07f570e4', difficulty)
     total_time = str((time.time() - start))
     print(f"fim da mineração. A mineração levou: {total_time} segundos")
     print(new_hash)
