@@ -23,7 +23,7 @@ Dessa forma vamos poder visualizar a criptografia utilizada para o texto que for
 
 Agora vamos partir para o código da mineração, nessa parte vamos ter que concatenar as informações do número do bloco, das transações, do hash anterior (que é a criptografia do bloco anterior na nossa cadeia de blocos) e a quantidade de zeros.
 
-**OBS:**  Essas informações mais gerais nós passamos no nosso vídeo, mas caso você queira saber detalhadamente o que significa cada uma dessas informações sugerimos que faça uma pesquisa mais detalhada sobre o assunto. Até porque não estamos dizendo que deve comprar, minerar ou fazer transações com bitcoin, essa aula é apenas didática para mostrar que é possível.
+
 
 **OBS2:**  Então caso tenha interesse em aprender sobre esse assunto é importante que procure fontes específicas que vão tratar do assunto para que saiba com o que está lidando.
 
