@@ -7,7 +7,7 @@ def SHA256(text):
     return sha256(text.encode("ascii")).hexdigest()
 
 def mine(block_number, transactions, previous_hash, prefix_zeros):
-    prefix_str = '0'* prefix_zeros
+    prefix_str = '0'
     for nonce in range(NONCE):
         text = str(block_number) + transactions + previous_hash + str(nonce)
         new_hash = SHA256(text)
